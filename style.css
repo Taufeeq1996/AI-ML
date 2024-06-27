@@ -44,9 +44,10 @@ main .catchy-div img {
 }
 main .catchy-div h2 {
   position: absolute;
-  top: 40%;
+  bottom: 20%;
   left: 5%;
-  background: linear-gradient(to right, red, yellow);
+  /* color: white; */
+  background: linear-gradient(to right, yellow, white);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -ms-background-clip: text;
@@ -100,6 +101,7 @@ main .why-ai-ml .ai-ml-reasons table tr td{
 }
 #tech-feature{
   margin-bottom: 15px;
+  font-size: 1vw;
 }
 #tech-feature span{
   background: linear-gradient(to right, red, yellow);
@@ -115,9 +117,9 @@ main .why-ai-ml .ai-ml-reasons table tr td{
 main .why-ai-ml .ai-ml-reasons li{
     margin-bottom: 10px;
 }
-main .why-ai-ml span{
+/* main .why-ai-ml span{
     font-weight: bolder;
-}
+} */
 main .ai-ml-btn{
     display: flex;
     text-align: center;
