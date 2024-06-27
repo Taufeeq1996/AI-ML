@@ -58,18 +58,18 @@ main .catchy-div h2 {
   font-size: clamp(30px, 4vw, 80px);
   /* font-size: 4vw; */
 }
-main .offer{
-    background: linear-gradient(to right, black, #00abae);
-    color: white;
-    padding: 1rem;
-    border-radius: 10px;
-    margin: 5px 0;
-} 
-main .offer h3{
-    font-size: clamp(22px, 3vw, 60px);
+main .offer {
+  background: linear-gradient(to right, black, #00abae);
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 5px 0;
 }
-main .offer span{
-      background: linear-gradient(to right, red, yellow);
+main .offer h3 {
+  font-size: clamp(22px, 3vw, 60px);
+}
+main .offer span {
+  background: linear-gradient(to right, red, yellow);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -ms-background-clip: text;
@@ -78,18 +78,18 @@ main .offer span{
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
-main .why-ai-ml{
-    background: linear-gradient(to right, black, #00abae);
-    color: white;
-    padding: 1rem;
-    border-radius: 10px;
-    margin: 5px 0;
-} 
-main .why-ai-ml h3{
-    font-size: clamp(19px, 1.5vw, 27px);
-    margin-bottom: 10px;
+main .why-ai-ml {
+  background: linear-gradient(to right, black, #00abae);
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 5px 0;
 }
-main .why-ai-ml p{
+main .why-ai-ml h3 {
+  font-size: clamp(19px, 1.5vw, 27px);
+  margin-bottom: 10px;
+}
+main .why-ai-ml p {
   font-size: clamp(22px, 2vw, 40px);
   background: linear-gradient(to right, red, yellow);
   -webkit-background-clip: text;
@@ -100,27 +100,27 @@ main .why-ai-ml p{
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
-main .why-ai-ml .ai-ml-reasons{
-    margin: 15px 0;
+main .why-ai-ml .ai-ml-reasons {
+  margin: 15px 0;
 }
-main .why-ai-ml .ai-ml-reasons img{
-    width: 100%;
-    border-radius: 8px;
+main .why-ai-ml .ai-ml-reasons img {
+  width: 100%;
+  border-radius: 8px;
 }
-main .why-ai-ml .ai-ml-reasons table{
+main .why-ai-ml .ai-ml-reasons table {
   border-collapse: collapse;
   table-layout: fixed;
 }
-main .why-ai-ml .ai-ml-reasons table tr td{
-    text-align: center;
-    padding: 10px;
-    vertical-align: top;
+main .why-ai-ml .ai-ml-reasons table tr td {
+  text-align: center;
+  padding: 10px;
+  vertical-align: top;
 }
-.tech-feature{
+.tech-feature {
   margin-bottom: 15px;
   font-size: clamp(15px, 1.5vw, 30px);
 }
-.tech-feature span{
+.tech-feature span {
   background: linear-gradient(to right, red, yellow);
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -129,53 +129,53 @@ main .why-ai-ml .ai-ml-reasons table tr td{
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  font-weight:bolder;
+  font-weight: bolder;
 }
-main .why-ai-ml .ai-ml-reasons li{
-    margin-bottom: 10px;
-    font-size: clamp(12px, 1.2vw, 25px);
+main .why-ai-ml .ai-ml-reasons li {
+  margin-bottom: 10px;
+  font-size: clamp(12px, 1.2vw, 25px);
 }
 /* main .why-ai-ml span{
     font-weight: bolder;
 } */
-main .ai-ml-btn{
-    display: flex;
-    text-align: center;
-    width: 100%;
-    justify-content: space-evenly;
+main .ai-ml-btn {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-evenly;
 }
-main .ai-ml-btn div{
-    background-color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
+main .ai-ml-btn div {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
 }
 main .ai-ml-btn a {
-    text-decoration: none;
-    color: #00abae;
-    font-weight: bold;
-    cursor: pointer;
+  text-decoration: none;
+  color: #00abae;
+  font-weight: bold;
+  cursor: pointer;
 }
-#key-benefits{
+#key-benefits {
   padding: 1rem 2rem;
 }
-@media only screen and (min-width: 650px) {
-  main .ai-ml-btn{
+@media only screen and (min-width: 650px) and (max-width: 1280px) {
+  main .ai-ml-btn {
     display: block;
+  }
+  main .ai-ml-btn div {
+    padding: 0.5rem;
+    margin-bottom: 10px;
+  }
 }
-main .ai-ml-btn div{
-  padding: 0.5rem;
-  margin-bottom: 10px;
-}
-}
-@media only screen and (max-width: 650px){
-  body{
+@media only screen and (max-width: 650px) {
+  body {
     width: 90%;
   }
-  main .ai-ml-btn{
+  main .ai-ml-btn {
     display: block;
-}
-main .ai-ml-btn div{
-  padding: 0.5rem;
-  margin-bottom: 10px;
-}
+  }
+  main .ai-ml-btn div {
+    padding: 0.5rem;
+    margin-bottom: 10px;
+  }
 }
