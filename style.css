@@ -7,9 +7,8 @@
 body {
   width: 50%;
   margin: 20px auto;
-  background: linear-gradient(to right, #00abae, black, #00abae);
+  /* background: linear-gradient(to right, black, #00abae); */
 }
-
 nav {
   background: linear-gradient(to right, black, #00abae);
   padding: 0.8rem;
@@ -45,9 +44,9 @@ main .catchy-div img {
 }
 main .catchy-div h2 {
   position: absolute;
-  bottom: 20%;
+  bottom: 15%;
   left: 5%;
-  /* color: white; */
+  /* color: yellow; */
   background: linear-gradient(to right, yellow, white);
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -56,18 +55,18 @@ main .catchy-div h2 {
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  /* font-size: clamp(22px, 4vw, 50px); */
-  font-size: 4vw;
+  font-size: clamp(30px, 4vw, 80px);
+  /* font-size: 4vw; */
 }
 main .offer{
     background: linear-gradient(to right, black, #00abae);
     color: white;
-    padding: 1rem 2rem;
+    padding: 1rem;
     border-radius: 10px;
     margin: 5px 0;
 } 
 main .offer h3{
-    font-size: 3vw;
+    font-size: clamp(22px, 3vw, 60px);
 }
 main .offer span{
       background: linear-gradient(to right, red, yellow);
@@ -82,16 +81,16 @@ main .offer span{
 main .why-ai-ml{
     background: linear-gradient(to right, black, #00abae);
     color: white;
-    padding: 1rem 2rem;
+    padding: 1rem;
     border-radius: 10px;
     margin: 5px 0;
 } 
 main .why-ai-ml h3{
-    font-size: 1.5vw;
+    font-size: clamp(19px, 1.5vw, 27px);
     margin-bottom: 10px;
 }
 main .why-ai-ml p{
-  font-size: 2vw;
+  font-size: clamp(22px, 2vw, 40px);
   background: linear-gradient(to right, red, yellow);
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -108,15 +107,20 @@ main .why-ai-ml .ai-ml-reasons img{
     width: 100%;
     border-radius: 8px;
 }
+main .why-ai-ml .ai-ml-reasons table{
+  border-collapse: collapse;
+  table-layout: fixed;
+}
 main .why-ai-ml .ai-ml-reasons table tr td{
     text-align: center;
     padding: 10px;
+    vertical-align: top;
 }
-#tech-feature{
+.tech-feature{
   margin-bottom: 15px;
-  font-size: 1.5vw;
+  font-size: clamp(15px, 1.5vw, 30px);
 }
-#tech-feature span{
+.tech-feature span{
   background: linear-gradient(to right, red, yellow);
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -129,7 +133,7 @@ main .why-ai-ml .ai-ml-reasons table tr td{
 }
 main .why-ai-ml .ai-ml-reasons li{
     margin-bottom: 10px;
-    font-size: 1.2vw;
+    font-size: clamp(12px, 1.2vw, 25px);
 }
 /* main .why-ai-ml span{
     font-weight: bolder;
@@ -150,4 +154,28 @@ main .ai-ml-btn a {
     color: #00abae;
     font-weight: bold;
     cursor: pointer;
+}
+#key-benefits{
+  padding: 1rem 2rem;
+}
+@media only screen and (min-width: 650px) {
+  main .ai-ml-btn{
+    display: block;
+}
+main .ai-ml-btn div{
+  padding: 0.5rem;
+  margin-bottom: 10px;
+}
+}
+@media only screen and (max-width: 650px){
+  body{
+    width: 90%;
+  }
+  main .ai-ml-btn{
+    display: block;
+}
+main .ai-ml-btn div{
+  padding: 0.5rem;
+  margin-bottom: 10px;
+}
 }
