@@ -87,12 +87,24 @@ main .why-ai-ml{
 } 
 main .why-ai-ml h3{
     font-size: 1.5vw;
+    margin-bottom: 10px;
+}
+main .why-ai-ml p{
+  font-size: 2vw;
+  background: linear-gradient(to right, red, yellow);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  -o-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 main .why-ai-ml .ai-ml-reasons{
     margin: 15px 0;
 }
 main .why-ai-ml .ai-ml-reasons img{
-    width: 45%;
+    width: 100%;
     border-radius: 8px;
 }
 main .why-ai-ml .ai-ml-reasons table tr td{
